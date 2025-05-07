@@ -12,7 +12,7 @@
 	<artifactId>sirius-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SIRIUS Client</name>
-	<description>Demo project for Spring Boot</description>
+	<description>The SIRIUS API client</description>
 	<url/>
 	<licenses>
 		<license/>
