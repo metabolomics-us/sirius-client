@@ -1,2 +1,2 @@
  # Sirius-Client
- The SIRIUS API Wrapper client built using Java, Springboot, and Maven. 
+ The SIRIUS API client for LC-BinBase built using Java, Springboot, and Maven. 
