@@ -3,10 +3,16 @@ package us.metabolomics.sirius.sirius_client;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class ResultLists {
+    @JsonProperty("formulas")
     private List<String> formulas;
+    @JsonProperty("sirius_scores")
     private List<Float> sirius_scores;
+    @JsonProperty("adducts")
     private List<String> adducts;
+    @JsonProperty("precursor_formulas")
     private List<String> precursor_formulas;
 
     // Default constructor, initialize empty lists

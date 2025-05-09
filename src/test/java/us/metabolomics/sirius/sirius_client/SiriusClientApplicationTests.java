@@ -36,7 +36,7 @@ class SiriusClientApplicationTests {
 		assertFalse(results.getPrecursors().isEmpty(), "ERROR: The predicted precursors list was empty.");
 	
 		// print predicted formulas
-		System.out.println("Predicted Formulas:\n");
+		System.out.println("\nPredicted Formulas:");
 		for (String formula : results.getFormulas()) {
 			System.out.println("- " + formula);
 		}

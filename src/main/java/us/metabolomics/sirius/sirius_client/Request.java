@@ -1,8 +1,13 @@
 package us.metabolomics.sirius.sirius_client;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Request {
+    @JsonProperty("msms_str")
     private String msms_str;
+    @JsonProperty("pcm_str")
     private String pcm_str;
+    @JsonProperty("charge")
     private boolean charge;
 
     // Custom constructor

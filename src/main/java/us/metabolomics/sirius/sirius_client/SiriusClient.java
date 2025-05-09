@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class SiriusClient {
     // SIRIUS API endpoint
-    private static final String API_URL = "https://sirius.metabolomics.us/formulas/";
+    private static final String API_URL = "https://sirius.metabolomics.us/formulas";
 
     // Method to query the API with a request object
     public ResultLists querySirius(Request request) {
@@ -23,7 +23,7 @@ public class SiriusClient {
         // http headers to tell the API that we are sending a json payload
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        
+
         // entity becomes the whole package, our request body + headers 
         HttpEntity<Request> entity = new HttpEntity<>(request, headers);
 
