@@ -11,6 +11,7 @@ public class Request {
         this.pcm_str = pcm;
         this.charge = charge;
     }
+
     // GETTERS
     public String getMsms() {
         return msms_str;

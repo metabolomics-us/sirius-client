@@ -17,11 +17,13 @@ public class SiriusClient {
 
     // Method to query the API with a request object
     public ResultLists querySirius(Request request) {
+        // used for http requests
         RestTemplate restTemplate = new RestTemplate();
 
         // http headers to tell the API that we are sending a json payload
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
+        
         // entity becomes the whole package, our request body + headers 
         HttpEntity<Request> entity = new HttpEntity<>(request, headers);
 
