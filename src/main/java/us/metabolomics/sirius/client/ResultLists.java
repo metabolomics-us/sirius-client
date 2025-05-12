@@ -1,4 +1,4 @@
-package us.metabolomics.sirius.sirius_client;
+package us.metabolomics.sirius.client;
 
 import java.util.ArrayList;
 import java.util.List;
