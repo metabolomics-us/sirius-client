@@ -42,7 +42,7 @@ class SiriusClientApplicationTests {
         }
 
         // print scores
-        System.out.println("Scores:\n");
+        System.out.println("\nScores:");
         for (Float score : results.getScores()) {
             System.out.println("- " + score);
         }
