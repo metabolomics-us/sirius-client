@@ -1,4 +1,4 @@
-package us.metabolomics.sirius.sirius_client;
+package us.metabolomics.sirius.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
